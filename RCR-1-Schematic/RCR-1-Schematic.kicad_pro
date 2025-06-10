@@ -407,6 +407,35 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "87e57e52-cef3-4fdb-88b5-2ca17be9d122",
+      "Root"
+    ],
+    [
+      "53a785a9-48a8-4066-8b0b-cb01d16f5ad1",
+      "Power Supplies"
+    ],
+    [
+      "d0c84c07-7f6b-47ef-a9a4-7ac235c5ef0d",
+      "HighVoltage Supply"
+    ],
+    [
+      "1b1aacca-6b55-4e5f-925a-7c0fe565654a",
+      "Switches"
+    ],
+    [
+      "7fde8b58-1da8-4c26-993d-7122d3e05a9a",
+      "Input"
+    ],
+    [
+      "e1315c73-a929-470f-93a5-cfe568ad6519",
+      "Drivers"
+    ],
+    [
+      "ac75483c-8a05-4c12-b6c4-8a337444da7c",
+      "Decatrons"
+    ]
+  ],
   "text_variables": {}
 }
