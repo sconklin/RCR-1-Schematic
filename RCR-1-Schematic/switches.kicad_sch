@@ -4046,6 +4046,16 @@
 		)
 		(uuid "d458d268-045b-408c-88f4-d35c062d41c8")
 	)
+	(text "Front Panel Switches"
+		(exclude_from_sim no)
+		(at 151.638 138.684 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "f2538ee0-2027-4ace-983a-1ad7c37b900e")
+	)
 	(text "Rst\nStop\nCount"
 		(exclude_from_sim no)
 		(at 215.646 105.664 0)

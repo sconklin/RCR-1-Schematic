@@ -1447,6 +1447,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(arc
+		(start 78.105 77.47)
+		(mid 78.105 77.47)
+		(end 78.105 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34b0b9da-7a4e-4a3d-8ec9-160edfe6fd25)
+	)
+	(arc
+		(start 29.21 129.54)
+		(mid 42.8734 93.3785)
+		(end 78.105 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45757d20-6264-46f2-aaa9-425c3d47e13e)
+	)
+	(text "images rcr-0, rcr-1"
+		(exclude_from_sim no)
+		(at 28.956 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28f83f23-1844-4eed-a0ab-b86bd7c62fcf")
+	)
+	(text "Decatrons"
+		(exclude_from_sim no)
+		(at 141.732 139.954 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "39523a7e-b213-458e-9efe-decaa5b50b18")
+	)
 	(text "ONES"
 		(exclude_from_sim no)
 		(at 124.714 68.58 0)
@@ -1777,6 +1823,16 @@
 		)
 		(uuid "356ba5f7-8603-44aa-8be0-742b3259864f")
 	)
+	(polyline
+		(pts
+			(xy 76.2 75.565) (xy 78.105 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368eceed-91ec-4e68-8335-b5758904eab8")
+	)
 	(wire
 		(pts
 			(xy 212.09 80.01) (xy 217.17 80.01)
@@ -1906,6 +1962,16 @@
 			(type default)
 		)
 		(uuid "4c833587-a617-4d43-b716-ed1386867be8")
+	)
+	(polyline
+		(pts
+			(xy 76.2 79.375) (xy 78.105 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a0eb0f-5869-4325-bcd0-441e929c94e1")
 	)
 	(wire
 		(pts

@@ -1006,7 +1006,7 @@
 						(type none)
 					)
 				)
-				(text "12BH7"
+				(text "12AX7"
 					(at 0 -15.748 0)
 					(effects
 						(font
@@ -1878,6 +1878,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Input"
+		(exclude_from_sim no)
+		(at 136.144 140.716 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "1b5bdfc4-c65d-41c7-b31e-92ce4270752e")
 	)
 	(junction
 		(at 179.07 83.82)

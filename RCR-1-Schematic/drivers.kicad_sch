@@ -2438,6 +2438,16 @@
 		)
 		(uuid "b345cb58-49db-4029-99a4-d70f7003d5f8")
 	)
+	(text "Drivers"
+		(exclude_from_sim no)
+		(at 147.066 137.16 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "b5e39c8c-3fa2-4550-90f3-6828ca28a440")
+	)
 	(text "100s\nCounter"
 		(exclude_from_sim no)
 		(at 122.936 57.658 0)
