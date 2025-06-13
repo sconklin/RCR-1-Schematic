@@ -5364,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20 uF 450V"
+		(property "Value" "20 uF 450 V"
 			(at 118.491 92.0171 0)
 			(effects
 				(font
@@ -6063,7 +6063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4 uF 150V"
+		(property "Value" "20 uF 450 V"
 			(at 174.371 92.0171 0)
 			(effects
 				(font
@@ -6758,7 +6758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4 uF 150V"
+		(property "Value" "20 uF 450 V"
 			(at 143.891 92.0171 0)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4 uF 150V"
+		(property "Value" "20 uF 450 V"
 			(at 201.041 92.0171 0)
 			(effects
 				(font
