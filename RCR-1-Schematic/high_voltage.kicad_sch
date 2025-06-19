@@ -2169,6 +2169,16 @@
 		)
 		(uuid "c936e637-ae63-42c9-857d-22686e80b827")
 	)
+	(text "This is original.\nI added 100K series resistance to bring mine back into calibration."
+		(exclude_from_sim no)
+		(at 156.21 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6bba4a8-19cf-4430-874b-3f2791cd061d")
+	)
 	(junction
 		(at 100.33 120.65)
 		(diameter 0)
@@ -2248,22 +2258,22 @@
 		(uuid "b6819ca8-93a2-4b30-a2d5-c9d1c1892069")
 	)
 	(junction
-		(at 179.07 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba8f8efa-ea3e-43b1-bed4-fc3822ee7ca8")
-	)
-	(junction
 		(at 113.03 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d489eb9c-0d4d-4796-b712-16338f815572")
 	)
 	(junction
+		(at 179.07 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b02a01-5670-47fe-83c4-b2b5a218eeed")
+	)
+	(junction
 		(at 104.14 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7f2d8f9-fc9c-43fd-a891-e45da5896e6b")
+		(uuid "deb93de4-a7d2-4624-8f0d-50766075c9db")
 	)
 	(junction
 		(at 78.74 58.42)
@@ -2306,6 +2316,16 @@
 			(type default)
 		)
 		(uuid "068296ea-7bf6-43d1-b61d-0b8f80b5aebd")
+	)
+	(wire
+		(pts
+			(xy 175.26 120.65) (xy 179.07 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084e24ee-4c4f-4470-aab7-9979ef2288e1")
 	)
 	(wire
 		(pts
@@ -2475,7 +2495,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4af0ac7e-f279-4fcb-8719-234b2f2460bb")
+		(uuid "581140e7-e767-40fe-bb6c-1392ec697592")
 	)
 	(polyline
 		(pts
@@ -2746,16 +2766,6 @@
 			(type default)
 		)
 		(uuid "baf77bde-eacb-48c7-b205-3f23872ba02b")
-	)
-	(wire
-		(pts
-			(xy 179.07 120.65) (xy 175.26 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c1840e-98f5-4dfd-9d56-005e47772064")
 	)
 	(wire
 		(pts
@@ -3391,7 +3401,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 156.21 120.65 90)
+		(at 125.73 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3400,7 +3411,7 @@
 		(fields_autoplaced yes)
 		(uuid "225c137d-974b-4162-93a8-eb223890f257")
 		(property "Reference" "R17"
-			(at 156.21 115.6165 90)
+			(at 125.73 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3419,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 156.21 118.0408 90)
+			(at 125.73 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.464 119.634 90)
+			(at 125.476 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 120.65 0)
+			(at 125.73 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3445,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 156.21 120.65 0)
+			(at 125.73 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3540,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 163.83 120.65 90)
+		(at 118.11 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3538,7 +3550,7 @@
 		(fields_autoplaced yes)
 		(uuid "29e4ccc1-4829-4a53-a4fa-f106b1a2e13f")
 		(property "Reference" "R18"
-			(at 163.83 115.6165 90)
+			(at 118.11 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3558,7 @@
 			)
 		)
 		(property "Value" "160K"
-			(at 163.83 118.0408 90)
+			(at 118.11 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 164.084 119.634 90)
+			(at 117.856 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3584,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 163.83 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3746,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 148.59 120.65 90)
+		(at 133.35 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3743,7 +3756,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e111c7-eee7-4df5-87c6-c48738508bd4")
 		(property "Reference" "R16"
-			(at 148.59 115.6165 90)
+			(at 133.35 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3764,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 148.59 118.0408 90)
+			(at 133.35 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.844 119.634 90)
+			(at 133.096 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3790,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 148.59 120.65 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3882,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 110.49 120.65 90)
+		(at 171.45 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3878,7 +3892,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a7737b5-63c1-4c46-9e20-dfd63e21722a")
 		(property "Reference" "R11"
-			(at 110.49 115.6165 90)
+			(at 171.45 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3900,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 110.49 118.0408 90)
+			(at 171.45 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.744 119.634 90)
+			(at 171.196 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 120.65 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3926,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 110.49 120.65 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4513,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 125.73 120.65 90)
+		(at 156.21 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4508,7 +4523,7 @@
 		(fields_autoplaced yes)
 		(uuid "847318de-6034-4c90-ac78-4aa0add8296c")
 		(property "Reference" "R13"
-			(at 125.73 115.6165 90)
+			(at 156.21 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4531,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 125.73 118.0408 90)
+			(at 156.21 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.984 119.634 90)
+			(at 155.956 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 120.65 0)
+			(at 156.21 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4557,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 125.73 120.65 0)
+			(at 156.21 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4655,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 140.97 120.65 90)
+		(at 140.97 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4665,7 +4681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.224 119.634 90)
+			(at 140.716 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4794,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 171.45 120.65 90)
+		(at 110.49 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4787,7 +4804,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1492a38-47be-446f-a365-a4166c21afd0")
 		(property "Reference" "R19"
-			(at 171.45 115.6165 90)
+			(at 110.49 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4812,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 171.45 118.0408 90)
+			(at 110.49 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.704 119.634 90)
+			(at 110.236 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 120.65 0)
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4838,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 171.45 120.65 0)
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5293,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 118.11 120.65 90)
+		(at 163.83 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5285,7 +5303,7 @@
 		(fields_autoplaced yes)
 		(uuid "f781daa4-367f-47d9-a86e-5a0a42aa9eef")
 		(property "Reference" "R12"
-			(at 118.11 115.6165 90)
+			(at 163.83 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5311,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 118.11 118.0408 90)
+			(at 163.83 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.364 119.634 90)
+			(at 163.576 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 120.65 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5337,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 118.11 120.65 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5362,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 133.35 120.65 90)
+		(at 148.59 120.65 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5353,7 +5372,7 @@
 		(fields_autoplaced yes)
 		(uuid "f853cd48-2e6c-4afa-bc8f-33b5fa458dc1")
 		(property "Reference" "R14"
-			(at 133.35 115.6165 90)
+			(at 148.59 115.6165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5380,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 133.35 118.0408 90)
+			(at 148.59 118.0408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.604 119.634 90)
+			(at 148.336 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 120.65 0)
+			(at 148.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5406,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 133.35 120.65 0)
+			(at 148.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

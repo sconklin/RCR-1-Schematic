@@ -1,12 +1,22 @@
 # Schematics for the Nucleonics Corp of America Model RCR-1 General Scaler-Ratemeter
 
-There are probably errors in this.
+There are probably errors in this. I've included scans from my paper notes in case that's helpful to anyone.
 
 I don't know how many of these there are surviving, but based on what I can find on the internet I think it's very few. If you have one, drop me a note.
 
 [Here is a video](https://www.youtube.com/watch?v=L2IJisdT82M&ab_channel=GeigerCounterVirtualMuseum) of one similar to mine (not my video).
 
 Most of the circuit is pretty standard for the vacuum tube era, but there are two parts that are less common and worth a closer look.
+
+## Modifications I made
+
+* I rewired the AC line input for better safety and replaced the unpolarized two-prong cord with a grounded cord. The ground is tied to the chassis. The change is shown in the schematic.
+* I replaced the Mallory capacitor can (4 x 20uF@450V) with a similar (475V) one from Antique Electronics Supply.
+* I replaced the coax between the input BNC connector and the 12AX7 input buffer. The dielectric insulation in the old coax was crumbling.
+* I replaced the Selenium Rectifier with ten GP02-40 Silicon rectifiers in series. This totals 13.2 Vf (measured), which wasn't quite close enough to the original rectifier, and the voltage dropped to -36V. I added resistance to get it back to -33V. This is probably not the original voltage, but it has been working well.
+* The HV meter reading were off by quite a bit - for example, when the meter indicated 920V, the actual output was 817V. I recalibrated the HV meter by measuring the high voltage and adding resistance to the divider chain to restore accurate readings.
+* I added a connector between the mechanical hundreds counter and the rest of the unit to make it easy to remove for service.
+* I cleaned and very lightly lubricated the hundreds counter
 
 ## Interesting features
 
@@ -26,4 +36,4 @@ The GC10B [Decatrons](https://en.wikipedia.org/wiki/Dekatron) require a pahsed a
 
 ## Notes
 
-The instrument is essentially analog, with pulse amplification throughout and multiple signal paths. Because of this, it's possible to have what might seem like unexpected behavior. For example - with a [Geiger-Muller](https://en.wikipedia.org/wiki/Geiger%E2%80%93M%C3%BCller_tube) from a [CD V-700](https://en.wikipedia.org/wiki/CD_V-700) counter, everything works as expected with a tube voltage between 900 and 920 Volts. However, if the tube voltage is about 980 volts, you will still get audio clicks indicating pulses, but the Decatron indicator will only advance intermittently.
+The instrument is essentially analog, with pulse amplification throughout and multiple signal paths. Because of this, it's possible to have what might seem like unexpected behavior. For example - with a [Geiger-Muller](https://en.wikipedia.org/wiki/Geiger%E2%80%93M%C3%BCller_tube) from a [CD V-700](https://en.wikipedia.org/wiki/CD_V-700) counter, everything works as expected with a tube voltage between 900 and 920 Volts. However, if the tube voltage is around 880 volts, you will still get audio clicks indicating pulses, but the Decatron indicator will only advance intermittently.
